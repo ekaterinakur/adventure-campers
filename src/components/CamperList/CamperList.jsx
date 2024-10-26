@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 import { fetchCatalog } from '../../redux/catalog/catalogOps';
 import {
-  resetState,
   selectCatalog,
   selectError,
   selectIsNextPageAvailable,
@@ -28,10 +27,6 @@ const CamperList = () => {
 
   useEffect(() => {
     dispatch(fetchCatalog());
-
-    return () => {
-      dispatch(resetState());
-    };
   }, [page, filters, dispatch]);
 
   useEffect(() => {
