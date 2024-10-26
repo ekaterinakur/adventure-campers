@@ -20,13 +20,13 @@ const HomePage = () => {
       <picture>
         <source
           media="(max-width: 480px)"
-          srcSet="src/assets/images/hero@1x.png"
+          srcSet="images/hero@1x.png"
         />
         <source
           media="(max-width: 768px)"
-          srcSet="src/assets/images/hero@2x.png"
+          srcSet="images/hero@2x.png"
         />
-        <img src="src/assets/images/hero@3x.png" alt="Campers" />
+        <img src="images/hero@3x.png" alt="Campers" />
       </picture>
     </div>
   );
