@@ -11,4 +11,4 @@ Currently, two official plugins are available:
 `npm run dev`
 
 # Deployed to Vercel
-`https://goit-neo-react-test-task.vercel.app/`
+[Live Page](https://adventure-campers.vercel.app/)
